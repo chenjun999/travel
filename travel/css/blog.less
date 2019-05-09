@@ -1,0 +1,112 @@
+@import "mixins/section-extend.less";
+@import 'mixins/nav.less';
+@import 'mixins/footer.less';
+// section-11 提示和文章
+#section-11 {
+    .section-extend;
+    background: #F8FAFF;
+    padding: 60px 0;
+    .content-wrap {
+        img {
+            height: 250px;
+        } // 分页导航
+        nav.navpage {
+            // background: #F9BE37;
+            li>a {
+                border: 1px solid green;
+                color: green;
+                overflow: hidden;
+                margin: 0 5px;
+                border-radius: 50%;
+            }
+            li.active>a {
+                color: white;
+                background: #0BC8A0;
+            }
+        }
+    }
+}
+
+// section-12 邮箱表单
+#section-12 {
+    background: #0BC8A0;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    text-align: center;
+    .content-wrap {
+        padding: 100px 0 200px 0;
+        overflow: hidden;
+        position: relative;
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 16px;
+        }
+        form {
+            color: gray;
+            font-size: 20px; // float: left;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 300px auto 0;
+            input[type=text] {
+                float: left;
+                outline: none;
+                height: 54px;
+                width: 70%;
+                border: 1px solid transparent;
+            }
+            input[type=submit] {
+                float: left;
+                height: 54px;
+                width: 30%;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
+
+// 联系页面用的邮箱地址
+#section-14 {
+    &:extend(.section-extend all);
+    .content-wrap {
+        &>p {
+            font-family: "Poppins", Arial, sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 300;
+            color: #666666;
+        }
+        #myForm{
+            p{
+                height: 80px;
+                input{
+                    width: 100%;
+                    height: 60px;
+                    outline: none;
+                    border: 1px solid gray;
+                    font-size: 18px ;
+                }
+                input[type=submit]{
+                    width: 160px;
+                    border-radius: 30px;
+                    background-color: #F9BE37;
+                }
+                label{
+                    color: red;
+                    font-size: 16px;
+                }
+            }
+           
+        }
+    }
+}
+
+//footer
+#footer {
+    .footer();
+}

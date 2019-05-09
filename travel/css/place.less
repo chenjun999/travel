@@ -1,0 +1,113 @@
+@import "mixins/section-extend.less";
+@import 'mixins/nav.less';
+@import 'mixins/footer.less';
+
+// section-12 邮箱表单
+#section-12 {
+    background: #0BC8A0;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    text-align: center;
+    .content-wrap {
+        padding: 100px 0 200px 0;
+        overflow: hidden;
+        position: relative;
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 16px;
+        }
+        form {
+            color: gray;
+            font-size: 20px; // float: left;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 300px auto 0;
+            input[type=text] {
+                float: left;
+                outline: none;
+                height: 54px;
+                width: 70%;
+                border: 1px solid transparent;
+            }
+            input[type=submit] {
+                float: left;
+                height: 54px;
+                width: 30%;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
+
+// section-13 带表单的缩略图
+#section-13 {
+    .section-extend;
+    margin-bottom: 60px;
+    .content-wrap {
+        h3 {
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 400;
+            font-size: 18px;
+        }
+        form{
+            &>input,select{
+                height: 50px;
+                width: 100%;
+                margin: 10px 0;
+                outline: none;
+                border: 1px solid #e6e6e6;
+            }
+            input[type=submit]{
+                background-color: #F9BE37;
+                border-radius: 2px;
+                color: #fff;
+                font-size: 20px;
+            }
+            p{
+                input{
+                    width: 60%;
+                }
+            }
+        }
+        // 小星星等级
+        &>p{
+            input[type=checkbox]{
+                width: 16px;
+                height: 16px;
+                margin: 2px;
+            }
+            span{
+                font-size: 16px;
+                color: #F9BE37;
+                margin: 2px;
+            }
+        }
+        // 分页导航
+        nav.navpage{
+            // background: #F9BE37;
+            
+            li>a{
+                border: 1px solid green;
+                color: green;
+                overflow: hidden;
+                margin: 0 5px;
+                border-radius: 50%;
+            }
+            li.active > a{
+                color: white;
+                background: #0BC8A0;
+            }
+        }
+    }
+}
+
+//footer
+#footer {
+  .footer();
+}

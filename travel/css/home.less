@@ -1,0 +1,315 @@
+@import "mixins/section-extend.less";
+@import 'mixins/nav.less';
+@import 'mixins/footer.less';
+
+
+#section-1 {
+    #tabs {
+        padding: 0;
+        border: none;
+        background: none;
+        ul {
+            margin: 0 auto;
+            border: none;
+            background: none;
+            li {
+                border: none;
+                background: transparent;
+                &.ui-state-active {
+                    background: #F9BE37;
+                    a:link {
+                        color: white;
+                    }
+                }
+                a {
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 37px;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        } // 表单部分
+        div.tabs-menu {
+            background: white;
+            form {
+                .form-group {
+                    label {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;
+                        margin-bottom: 10px;
+                    }
+                    input[type=submit] {
+                        background: #F9BE37;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section-2
+#section-2 {
+    padding: 100px 0 100px 0;
+    background: #F8FAFF;
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+        span {
+            color: #F9BE37;
+        }
+    }
+}
+
+//section-3
+#section-3 {
+    margin-top: 50px;
+    text-align: center;
+    .bg-1 {
+        background: url('../images/destination-1.jpg')
+    }
+    .bg-2 {
+        background: url('../images/destination-2-1.jpg')
+    }
+    .bg-3 {
+        background: url('../images/destination-3.jpg')
+    }
+    .bg {
+        margin-top: 50px;
+        width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+        background-position: center center;
+        overflow: hidden;
+        .scription {
+            width: 80%;
+            height: 80px;
+            background-color: #ffffff;
+            margin: 200px auto 0;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 80px;
+            font-family: "Abril Fatface", cursive;
+        }
+    }
+}
+
+// section-4
+#section-4 {
+    margin-top: 50px;
+    .bg {
+        height: 360px;
+        margin-left: -15px;
+        margin-right: -15px;
+        background-image: url(../images/about.jpg);
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .scription {
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 300;
+        color: #666666;
+        h2 {
+            font-size: 40px;
+            font-weight: normal;
+            font-family: "Abril Fatface", cursive;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #section-4 {
+        .bg {
+            height: 400px;
+        }
+        .scription {
+            padding: 5% 13% 5% 5%;
+        }
+    }
+}
+
+// section-5
+#section-5 {
+    // height: 424px;
+    background-color: #F8FAFF;
+    .content-wrap {
+        width: 100%;
+        margin: 60px auto;
+        span {
+            font-size: 60px;
+            color: #F9BE37;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            color: #666666;
+        }
+    }
+}
+
+// section-6热门地点
+#section-6 {
+    .section-extend;
+}
+
+// section-7
+#section-7 {
+    margin-top: 60px;
+    background-image: url('../images/bg_1.jpg');
+    .bg-wrap {
+        background-color: #16D0AE;
+        opacity: 0.8;
+        .content-wrap {
+            margin: 60px 0;
+            p.num-g {
+                margin: 20px 0;
+                font-family: "Abril Fatface", cursive;
+                font-weight: normal;
+                font-size: 40px;
+                color: #fff;
+            }
+            p {
+                text-align: center;
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}
+
+// section-8 热门酒店
+#section-8 {
+    .section-extend;
+}
+
+// section-9 轮播图
+#section-9 {
+    background-color: #08C299; // height: ;
+    text-align: center;
+    margin-top: 80px;
+    overflow: hidden;
+    padding-bottom: 60px;
+    h2 {
+        margin: 40px auto;
+        font-size: 40px;
+        color: #fff;
+        font-weight: normal;
+        font-family: "Abril Fatface", cursive;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 300;
+        font-family: "Poppins", Arial, sans-serif;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .item {
+        margin-top: 100px;
+        .content-wrap {
+            height: 340px;
+            background-color: #21C8A3;
+            position: relative;
+            padding: 120px 20px 0;
+            .avatr {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                left: 40px;
+                top: -60px;
+                z-index: 3;
+                background-size: 100% 100%;
+                background-position: center center;
+            }
+            .avatr1 {
+                background-image: url("../images/person_1.jpg");
+            }
+            .avatr2 {
+                background-image: url("../images/person_2.jpg");
+            }
+            .avatr3 {
+                background-image: url("../images/person_3.jpg");
+            }
+            h3 {
+                font-weight: 400;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+// section-10 推荐餐厅
+#section-10 {
+    .section-extend;
+}
+
+// section-11 提示和文章
+#section-11 {
+    .section-extend;
+    background: #F8FAFF;
+    padding: 60px 0;
+    .content-wrap {
+        img {
+            height: 250px;
+        }
+    }
+}
+
+
+
+// section-12
+#section-12 {
+    background: #0BC8A0;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    text-align: center;
+    .content-wrap {
+        padding: 100px 0 200px 0;
+        overflow: hidden;
+        position: relative;
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 16px;
+        }
+        form {
+            color: gray;
+            font-size: 20px; // float: left;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: 300px auto 0;
+            input[type=text] {
+                float: left;
+                outline: none;
+                height: 54px;
+                width: 70%;
+                border: 1px solid transparent;
+            }
+            input[type=submit] {
+                float: left;
+                height: 54px;
+                width: 30%;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
+
+//footer
+#footer {
+   .footer();
+}

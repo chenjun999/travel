@@ -1,0 +1,647 @@
+.section-extend {
+  margin-top: 60px;
+}
+.section-extend h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+.section-extend .content-wrap {
+  margin-top: 40px;
+  overflow: hidden;
+}
+.section-extend .content-wrap img {
+  width: 100%;
+  height: 300px;
+}
+.section-extend .content-wrap .content-list h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.section-extend .content-wrap .content-list h3 span {
+  color: #2f89fc;
+  float: right;
+}
+.section-extend .content-wrap .content-list p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+  overflow: hidden;
+}
+.section-extend .content-wrap .content-list p .glyphicon-star {
+  color: #F9BE37;
+  font-size: 10px;
+}
+.section-extend .content-wrap .content-list p .glyphicon-star-empty {
+  color: #F9BE37;
+  font-size: 10px;
+}
+.section-extend .content-wrap .content-list p.p1 {
+  line-height: 34px;
+}
+.section-extend .content-wrap .content-list p .btn {
+  float: right;
+  width: 40px !important;
+  padding: 6px;
+}
+.navbar {
+  border-radius: 0;
+  border-width: 0;
+  margin-bottom: 0;
+  color: white;
+  z-index: 10;
+}
+.navbar .navbar-header button .glyphicon-menu-hamburger {
+  font-size: 16px;
+  color: gray;
+}
+.navbar .navbar-header button .glyphicon-menu-hamburger span {
+  position: relative;
+  top: -1.6px;
+  left: 5px;
+}
+.navbar .navbar-header .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 15px;
+}
+.navbar .navbar-collapse {
+  border-width: 0;
+}
+.navbar .navbar-collapse .navbar-nav {
+  font-size: 18px;
+}
+.navbar .navbar-collapse .navbar-nav li a {
+  color: white;
+}
+.navbar .navbar-collapse .navbar-nav li a:hover {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .navbar {
+    min-height: 70px;
+  }
+  .navbar .container {
+    margin-top: 10px;
+  }
+  nav.navbar-light {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+  }
+}
+div.hero-wrap {
+  height: 626px;
+  background: url('../images/bg_1.jpg');
+}
+div.hero-wrap .title {
+  margin-top: 160px;
+  color: #ffffff;
+}
+div.hero-wrap .title h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+div.hero-wrap .title p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+@media only screen and (min-width: 768px) {
+  #section-1 {
+    margin-top: -210px;
+  }
+  #section-1 #tabs ul {
+    width: 360px;
+  }
+  #section-1 #tabs ul li {
+    width: 110px;
+    height: 54px;
+  }
+  #section-1 #tabs ul li a:link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #section-1 div.tabs-menu {
+    height: 152px;
+  }
+  #section-1 div.tabs-menu form .form-group {
+    margin-top: 30px;
+  }
+  #section-1 div.tabs-menu form .form-group input[type=submit] {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #section-1 #tabs ul {
+    width: 100%;
+  }
+  #section-1 #tabs ul li {
+    width: 100%;
+    text-align: center;
+  }
+  #section-1 #tabs ul li a:link {
+    color: black;
+  }
+}
+#section-1 #tabs {
+  padding: 0;
+  border: none;
+  background: none;
+}
+#section-1 #tabs ul {
+  margin: 0 auto;
+  border: none;
+  background: none;
+}
+#section-1 #tabs ul li {
+  border: none;
+  background: transparent;
+}
+#section-1 #tabs ul li.ui-state-active {
+  background: #F9BE37;
+}
+#section-1 #tabs ul li.ui-state-active a:link {
+  color: white;
+}
+#section-1 #tabs ul li a {
+  font-size: 16px;
+  text-align: center;
+  line-height: 37px;
+  width: 100%;
+  height: 100%;
+}
+#section-1 #tabs div.tabs-menu {
+  background: white;
+}
+#section-1 #tabs div.tabs-menu form .form-group label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#section-1 #tabs div.tabs-menu form .form-group input[type=submit] {
+  background: #F9BE37;
+  border: none;
+  outline: none;
+}
+#section-2 {
+  padding: 100px 0 100px 0;
+  background: #F8FAFF;
+}
+#section-2 h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#section-2 h3 span {
+  color: #F9BE37;
+}
+#section-3 {
+  margin-top: 50px;
+  text-align: center;
+}
+#section-3 .bg-1 {
+  background: url('../images/destination-1.jpg');
+}
+#section-3 .bg-2 {
+  background: url('../images/destination-2-1.jpg');
+}
+#section-3 .bg-3 {
+  background: url('../images/destination-3.jpg');
+}
+#section-3 .bg {
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+  background-position: center center;
+  overflow: hidden;
+}
+#section-3 .bg .scription {
+  width: 80%;
+  height: 80px;
+  background-color: #ffffff;
+  margin: 200px auto 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: "Abril Fatface", cursive;
+}
+#section-4 {
+  margin-top: 50px;
+}
+#section-4 .bg {
+  height: 360px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-image: url(../images/about.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+#section-4 .scription {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #666666;
+}
+#section-4 .scription h2 {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+@media only screen and (min-width: 768px) {
+  #section-4 .bg {
+    height: 400px;
+  }
+  #section-4 .scription {
+    padding: 5% 13% 5% 5%;
+  }
+}
+#section-5 {
+  background-color: #F8FAFF;
+}
+#section-5 .content-wrap {
+  width: 100%;
+  margin: 60px auto;
+}
+#section-5 .content-wrap span {
+  font-size: 60px;
+  color: #F9BE37;
+}
+#section-5 .content-wrap h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#section-5 .content-wrap p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+}
+#section-6 {
+  margin-top: 60px;
+}
+#section-6 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+#section-6 .content-wrap {
+  margin-top: 40px;
+  overflow: hidden;
+}
+#section-6 .content-wrap img {
+  width: 100%;
+  height: 300px;
+}
+#section-6 .content-wrap .content-list h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#section-6 .content-wrap .content-list h3 span {
+  color: #2f89fc;
+  float: right;
+}
+#section-6 .content-wrap .content-list p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+  overflow: hidden;
+}
+#section-6 .content-wrap .content-list p .glyphicon-star {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-6 .content-wrap .content-list p .glyphicon-star-empty {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-6 .content-wrap .content-list p.p1 {
+  line-height: 34px;
+}
+#section-6 .content-wrap .content-list p .btn {
+  float: right;
+  width: 40px !important;
+  padding: 6px;
+}
+#section-7 {
+  margin-top: 60px;
+  background-image: url('../images/bg_1.jpg');
+}
+#section-7 .bg-wrap {
+  background-color: #16D0AE;
+  opacity: 0.8;
+}
+#section-7 .bg-wrap .content-wrap {
+  margin: 60px 0;
+}
+#section-7 .bg-wrap .content-wrap p.num-g {
+  margin: 20px 0;
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  font-size: 40px;
+  color: #fff;
+}
+#section-7 .bg-wrap .content-wrap p {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#section-8 {
+  margin-top: 60px;
+}
+#section-8 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+#section-8 .content-wrap {
+  margin-top: 40px;
+  overflow: hidden;
+}
+#section-8 .content-wrap img {
+  width: 100%;
+  height: 300px;
+}
+#section-8 .content-wrap .content-list h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#section-8 .content-wrap .content-list h3 span {
+  color: #2f89fc;
+  float: right;
+}
+#section-8 .content-wrap .content-list p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+  overflow: hidden;
+}
+#section-8 .content-wrap .content-list p .glyphicon-star {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-8 .content-wrap .content-list p .glyphicon-star-empty {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-8 .content-wrap .content-list p.p1 {
+  line-height: 34px;
+}
+#section-8 .content-wrap .content-list p .btn {
+  float: right;
+  width: 40px !important;
+  padding: 6px;
+}
+#section-9 {
+  background-color: #08C299;
+  text-align: center;
+  margin-top: 80px;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+#section-9 h2 {
+  margin: 40px auto;
+  font-size: 40px;
+  color: #fff;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+#section-9 p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+}
+#section-9 .item {
+  margin-top: 100px;
+}
+#section-9 .item .content-wrap {
+  height: 340px;
+  background-color: #21C8A3;
+  position: relative;
+  padding: 120px 20px 0;
+}
+#section-9 .item .content-wrap .avatr {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  top: -60px;
+  z-index: 3;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+#section-9 .item .content-wrap .avatr1 {
+  background-image: url("../images/person_1.jpg");
+}
+#section-9 .item .content-wrap .avatr2 {
+  background-image: url("../images/person_2.jpg");
+}
+#section-9 .item .content-wrap .avatr3 {
+  background-image: url("../images/person_3.jpg");
+}
+#section-9 .item .content-wrap h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+#section-10 {
+  margin-top: 60px;
+}
+#section-10 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+#section-10 .content-wrap {
+  margin-top: 40px;
+  overflow: hidden;
+}
+#section-10 .content-wrap img {
+  width: 100%;
+  height: 300px;
+}
+#section-10 .content-wrap .content-list h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#section-10 .content-wrap .content-list h3 span {
+  color: #2f89fc;
+  float: right;
+}
+#section-10 .content-wrap .content-list p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+  overflow: hidden;
+}
+#section-10 .content-wrap .content-list p .glyphicon-star {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-10 .content-wrap .content-list p .glyphicon-star-empty {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-10 .content-wrap .content-list p.p1 {
+  line-height: 34px;
+}
+#section-10 .content-wrap .content-list p .btn {
+  float: right;
+  width: 40px !important;
+  padding: 6px;
+}
+#section-11 {
+  margin-top: 60px;
+  background: #F8FAFF;
+  padding: 60px 0;
+}
+#section-11 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive;
+}
+#section-11 .content-wrap {
+  margin-top: 40px;
+  overflow: hidden;
+}
+#section-11 .content-wrap img {
+  width: 100%;
+  height: 300px;
+}
+#section-11 .content-wrap .content-list h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#section-11 .content-wrap .content-list h3 span {
+  color: #2f89fc;
+  float: right;
+}
+#section-11 .content-wrap .content-list p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #666666;
+  overflow: hidden;
+}
+#section-11 .content-wrap .content-list p .glyphicon-star {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-11 .content-wrap .content-list p .glyphicon-star-empty {
+  color: #F9BE37;
+  font-size: 10px;
+}
+#section-11 .content-wrap .content-list p.p1 {
+  line-height: 34px;
+}
+#section-11 .content-wrap .content-list p .btn {
+  float: right;
+  width: 40px !important;
+  padding: 6px;
+}
+#section-11 .content-wrap img {
+  height: 250px;
+}
+#section-12 {
+  background: #0BC8A0;
+  font-family: "Abril Fatface", cursive;
+  color: #fff;
+  text-align: center;
+}
+#section-12 .content-wrap {
+  padding: 100px 0 200px 0;
+  overflow: hidden;
+  position: relative;
+}
+#section-12 .content-wrap h2 {
+  font-size: 40px;
+}
+#section-12 .content-wrap p {
+  font-size: 16px;
+}
+#section-12 .content-wrap form {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 300px auto 0;
+}
+#section-12 .content-wrap form input[type=text] {
+  float: left;
+  outline: none;
+  height: 54px;
+  width: 70%;
+  border: 1px solid transparent;
+}
+#section-12 .content-wrap form input[type=submit] {
+  float: left;
+  height: 54px;
+  width: 30%;
+  border: 1px solid transparent;
+}
+#footer {
+  background-color: #222831;
+  padding: 100px 0 60px;
+}
+#footer .content-wrap {
+  font-size: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+#footer .content-wrap ul,
+#footer .content-wrap li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#footer .content-wrap ul {
+  margin: 40px 0;
+}
+#footer .content-wrap li {
+  margin: 20px 0;
+}
+#footer .content-wrap li .title {
+  font-size: 30px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #2D323B;
+  color: white;
+}
+#footer .content-wrap h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+#footer .content-wrap a {
+  color: rgba(255, 255, 255, 0.7);
+}
+#footer .content-wrap a:hover {
+  text-decoration: none;
+  color: white;
+}

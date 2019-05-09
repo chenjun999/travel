@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>此页面只做布局结构用，看源码，直接执行看不出所以然~~~</h1>
+
+    <section id='section-5' class="">  <!-- 个人习惯这一层放以id名为标记的盒子，作为样式的唯一区分 -->
+        <div class="container"> <!-- 容器盒子 container  container-fluid 两端有padding -->
+            <div class="row"><!-- 行  有左右margin为负值，用来弥补container的padding或者嵌套列的padding -->
+                <div class="col-md-3 col-sm-6"> <!-- 列 用来查询屏幕宽度，响应不同宽度等操作 两端有padding -->
+                    <div class="content-wrap"> <!-- 习惯性加上，保持结构统一 -->
+                        <span class="flaticon-yatch"></span>
+                        <h2>特别活动</h2>
+                        <p>一条名为Duden的小河流经他们的地方和供应。</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-wrap">
+                        <span class="flaticon-around"></span>
+                        <h2>旅行计划</h2>
+                        <p>一条名为Duden的小河流经他们的地方和供应。</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-wrap">
+                        <span class="flaticon-compass"></span>
+                        <h2>私人指南</h2>
+                        <p>一条名为Duden的小河流经他们的地方和供应。</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-wrap">
+                        <span class="flaticon-map-of-roads"></span>
+                        <h2>地理位置</h2>
+                        <p>一条名为Duden的小河流经他们的地方和供应。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 这样布局的想法， id名作为写less时唯一区分，对于container row col- 我只拿来布局
+        不做它用，content-wrap以及内部的其他内容则为具体样式的标记
+    -->
+
+
+</body>
+
+</html>
